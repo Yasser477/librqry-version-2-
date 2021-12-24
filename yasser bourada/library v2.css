@@ -1,0 +1,63 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+#title{
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+#price{
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+#author{
+    position: relative;
+    top: 100px;
+    left: 700px;
+}
+
+#lng{
+    position: relative;
+    top: 250px;
+    right: 470px;
+
+}
+
+#date{
+    position: relative;
+    top: 250px;
+}
+
+#email{
+    position: relative;
+    top: 210px;
+    left: 870px;
+   
+
+}
+
+#radio{
+    position: relative;
+    top: 300px;
+    left: 500px;
+}
+
+#btn{
+    position: relative;
+    top: 350px;
+    left: 310px ;
+    width: 100px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin-top: 400px;
+    margin-left: 450px;
+  }

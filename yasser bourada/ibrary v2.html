@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIbrary V2</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+
+
+    <form  action="javascript:void(0)">
+
+        <input id="title" type="text" name="title" placeholder="name" ><p></p>
+        <input id="author" type="text" name="author" placeholder="author name"><p></p>
+        <input id="price" type="number" name="price" placeholder="price"><p></p>
+        <input id="date" type="date" name=" date" placeholder="publication date"><p></p>
+        <select name="language" id="lng">
+            <option value="French">French</option>
+            <option value="Spanish">Spanish</option>
+            <option value="Arabic ">Arabic </option>
+            <option value="English">English</option>
+
+        </select>
+
+        <div id="radio">
+
+         <input type="radio" name="types" id="novel">
+        <label id="novel" for="novel">novel </label>
+
+        <input type="radio" name="types" id="comic">
+        <label id="comic" for="comic">comic</label>
+
+        <input type="radio" name="types" id="essay">
+        <label id="essay" for="essay">essay</label>
+
+
+
+        </div>
+       
+
+
+        <input type="email" name="email" id="email">
+        <label id="email" for="email"> Email </label>
+    
+
+<button onclick="add()">add</button>
+
+
+        <table id="table" border="1">
+
+            <thead>
+                <th> title </th>
+                <th> author </th>
+                <th> price </th>
+                <th>date</th>
+                <th>language</th>
+                <th>type</th>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+    </form>
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="library v2.js"></script>
+</body>
+</html>
